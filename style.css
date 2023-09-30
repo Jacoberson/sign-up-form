@@ -17,9 +17,21 @@ main {
     background-image: url(./assets/images/halie-west-25xggax4bSA-unsplash.jpg)
 }
 
-.sidebar h1 {
+.logo-section {
+    background-color: rgba(0, 0, 0, 0.3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    width: 6rem;
+}
+
+.logo-text {
     font-family: logo-font;
     color: white;
+    font-size: 4rem;
 }
 
 .main-content {
