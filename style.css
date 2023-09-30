@@ -1,3 +1,18 @@
 body {
     font-family: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 }
+
+main {
+    display: flex;
+}
+
+.logo-section {
+    width: 33%;
+    height: 100vh;
+    background-image: url(./assets/images/halie-west-25xggax4bSA-unsplash.jpg)
+}
+
+.main-content {
+    width: 67%;
+    height: 100vh;
+}
