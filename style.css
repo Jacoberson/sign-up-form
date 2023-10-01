@@ -73,3 +73,20 @@ header {
 .top-divider {
     border: 1px solid rgba(0, 0, 0, 0.2);
 }
+
+.form-control {
+    font-size: 0.7rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.input-container label {
+    display: block;
+}
+
+.form-row {
+    display: flex;
+    gap: 40px;
+    margin-bottom: 20px;
+}
