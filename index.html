@@ -28,35 +28,37 @@
             </header>
             <hr class="top-divider">
             <h3>Let's do this!</h3>
-            <form action="#" method="post">
+            <form action="" method="post">
                 <div class="form-row">
                     <div class="input-container">
                         <label class="form-control" for="first-name">First Name</label>
-                        <input type="text" id="first-name" name="first-name">
+                        <input type="text" id="first-name" name="first-name" required>
                     </div>
                     <div class="input-container">
                         <label class="form-control" for="last-name">Last Name</label>
-                        <input type="text" id="last-name" name="last-name">
+                        <input type="text" id="last-name" name="last-name" required>
                     </div>
                 </div>
                 <div class="form-row">
                     <div class="input-container">
                         <label class="form-control" for="email">Email</label>
-                        <input type="email" id="email" name="email">
+                        <input type="email" id="email" name="email" required>
                     </div>
                     <div class="input-container">
                         <label class="form-control" for="phone">Phone Number</label>
-                        <input type="tel" id="phone" name="phone">
+                        <input type="tel" id="phone" name="phone" required>
                     </div>
                 </div>
                 <div class="form-row">
                     <div class="input-container">
                         <label class="form-control" for="password">Password</label>
-                        <input type="password" id="password" name="password">
+                        <input class="error" type="password" id="password" name="password" required>
+                        <div></div>
                     </div>
                     <div class="input-container">
                         <label class="form-control" for="password-confirm">Confirm Password</label>
-                        <input type="password" id="password-confirm" name="password-confirm">
+                        <input class="error" type="password" id="password-confirm" name="password-confirm" required>
+                        <div></div>
                     </div>
                 </div>
                 <div class="submit-row">
