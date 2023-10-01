@@ -67,4 +67,9 @@ hr {
 
 header {
     margin-top: 15%;
+    padding-bottom: 16px;
+}
+
+.top-divider {
+    border: 1px solid rgba(0, 0, 0, 0.2);
 }
