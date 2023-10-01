@@ -29,7 +29,9 @@ main {
     font-size: 0.8rem;
 }
 
-.sidebar a:visited, a:hover, a:active {
+.sidebar a:visited,
+a:hover,
+a:active {
     text-decoration: none;
     color: white;
 }
@@ -71,7 +73,7 @@ header {
 }
 
 .top-divider {
-    border: 1px solid rgba(0, 0, 0, 0.2);
+    border: 1px solid rgba(0, 0, 0, 0.1);
 }
 
 .form-control {
@@ -89,4 +91,30 @@ header {
     display: flex;
     gap: 40px;
     margin-bottom: 20px;
+}
+
+button {
+    background-color: #596D48;
+    color: white;
+    font-weight: 700;
+    padding: 12px 36px;
+    border-radius: 6px;
+    border: 0;
+    margin: 12px 0;
+}
+
+.bottom-divider {
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+form + p {
+    font-size: 0.9rem;
+}
+
+
+span > a {
+    text-decoration: none;
+    color: #596D48;
+    font-weight: 800;
 }
